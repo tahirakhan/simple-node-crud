@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+<body style="background-color:red">
+<H1>This is red page1</H1>
+    
+employees
+<ul class="employees">
+<% for(var i=0; i<employees.length; i++) {%>
+  <li class="employees">
+    <span><%= " Nome: " +employees[i].name+"."%></span>
+    <span><%=" Address: " + employees[i].address%></span>
+  </li>
+<% } %>
+</ul>
+</body>
+</html>
